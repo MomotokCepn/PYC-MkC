@@ -1,0 +1,806 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cn" lang="cn">
+
+<head>
+    <title>组件中心页 - MomotokCepn-CN主站</title>
+    
+    
+    
+    <script type="text/javascript" src="http://d3g0gp89917ko0.cloudfront.net/v--291054f06006/common--javascript/init.combined.js"></script>
+    <script  type="text/javascript">
+        var URL_HOST = 'www.wikidot.com';
+        var URL_DOMAIN = 'wikidot.com';
+        var USE_SSL =  true ;
+        var URL_STATIC = 'http://d3g0gp89917ko0.cloudfront.net/v--291054f06006';
+        // global request information
+        
+        var WIKIREQUEST = {};
+        WIKIREQUEST.info = {};
+        
+        WIKIREQUEST.info.domain = "momotokcepn.wikidot.com";
+        WIKIREQUEST.info.siteId = 4816626;
+        WIKIREQUEST.info.siteUnixName = "momotokcepn";
+        WIKIREQUEST.info.categoryId = 42090623;
+        WIKIREQUEST.info.themeId = 7305680;
+        WIKIREQUEST.info.requestPageName = "component:start";
+        OZONE.request.timestamp = 1673071609;
+        OZONE.request.date = new Date();
+        WIKIREQUEST.info.lang = 'cn';
+                WIKIREQUEST.info.pageUnixName = "component:start";
+        WIKIREQUEST.info.pageId = 1435484584;
+                        WIKIREQUEST.info.lang = "cn";
+        OZONE.lang = "cn";
+        var isUAMobile = !!/Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    </script>
+    
+    
+
+
+    
+        <script  type="text/javascript">
+    
+        require.config({
+            baseUrl: URL_STATIC + '/common--javascript',
+            paths: {
+                'jquery.ui': 'jquery-ui.min',
+                'jquery.form': 'jquery.form'
+            }
+        });
+    
+    </script>
+    
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+                            
+    
+    
+    
+    
+    <meta http-equiv="content-language" content="cn"/>
+    <script type="text/javascript" src="http://d3g0gp89917ko0.cloudfront.net/v--291054f06006/common--javascript/WIKIDOT.combined.js"></script>
+        
+    
+    <style type="text/css" id="internal-style">
+        
+        /* modules */
+        
+                
+        /* theme */
+                    @import url(http://d3g0gp89917ko0.cloudfront.net/v--291054f06006/common--theme/base/css/style.css);
+                    @import url(http://momotokcepn.wdfiles.com/local--theme/dawn/style.css);
+            </style>
+    
+        
+        
+        
+    <link rel="shortcut icon" href="/local--favicon/favicon.gif"/>
+    <link rel="icon" type="image/gif" href="/local--favicon/favicon.gif"/>
+    
+            <link rel="apple-touch-icon" href="/local--iosicon/iosicon_57.png" />
+        <link rel="apple-touch-icon" sizes="72x72" href="/local--iosicon/iosicon_72.png" />
+        <link rel="apple-touch-icon" sizes="114x114" href="/local--iosicon/iosicon.png" />    
+        
+            <meta name="msapplication-TileImage" content="/local--wp8icon/wp8icon.png"/>
+                
+            <link rel="alternate" type="application/wiki" title="Edit this page" href="javascript:WIKIDOT.page.listeners.editClick()"/>
+    
+        <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-18234656-1']);
+        _gaq.push(['_setDomainName', 'none']);
+        _gaq.push(['_setAllowLinker', true]);
+        _gaq.push(['_trackPageview']);
+
+        _gaq.push(['old._setAccount', 'UA-68540-5']);
+        _gaq.push(['old._setDomainName', 'none']);
+        _gaq.push(['old._setAllowLinker', true]);
+        _gaq.push(['old._trackPageview']);
+
+            </script>
+    
+    <script type="text/javascript">
+        window.google_analytics_uacct = 'UA-18234656-1';
+        window.google_analytics_domain_name = 'none';
+    </script>
+    
+        <link rel="manifest" href="/onesignal/manifest.json" />
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" acync=""></script>
+    <script>
+        var OneSignal = window.OneSignal || [];
+        OneSignal.push(function() {
+          OneSignal.init({
+            appId: null,
+          });
+        });
+    </script>
+        
+<style>
+/*
+ "Sticky Sandbox Tool"
+
+ Author:
+ 7happy7 (http://www.wikidot.com/user:info/7happy7)
+
+ Special Thanks to Advice for "the tips box":
+ Croquembouche (http://www.wikidot.com/user:info/croquembouche)
+
+ CC BY-SA 3.0
+ http://creativecommons.org/licenses/by-sa/3.0/
+*/
+
+/* main */
+a[name="page-top"][target] + div .fixed-controls a:not(.collapsible-block-link),a[name="page-top"][target] + div .fixed-controls span{pointer-events:none!important;color:#ddd!important;transition:color 1s}a[name="page-top"][target] + div .fixed-controls + .toc-box{right:-220px!important;transition:all 1.5s}a[name="page-top"][target] + div .fixed-controls{right:5px!important;transition:all 1.5s}a[name="page-top"][target] + div .fixed-controls .collapsible-block-link{pointer-events:auto!important;background-color:#444;color:#fff;transition:color 1s,background-color 1s}#top-bar .fixed-controls .fxc-row,#top-bar .fixed-controls a{-webkit-tap-highlight-color:rgba(0,0,0,0)}#top-bar .fixed-controls .collapsible-block-folded,#top-bar .fixed-controls .collapsible-block-unfolded-link{height:40px;margin-top:10px}#top-bar .fixed-controls a.collapsible-block-link{display:block!important;height:30px;background-color:#444;text-align:center;color:#fff;border-radius:10%;transition:color 1s,background-color 1s}#top-bar .fixed-controls .collapsible-block-content{border:#ddd 1px solid}#top-bar .fixed-controls a.fa{display:block;width:100%;height:100%;line-height:48.73px}#top-bar span.fxc-row{padding:0;padding-top:2px}@media (max-width:767px){a[name="page-top"][target] + div .fixed-controls{right:-60px!important;transition:all 1.5s}}#top-bar .fixed-controls .fxc-row{position:relative;z-index:2;cursor:pointer}#top-bar .fixed-controls .fa{font-size:0;color:#444}#top-bar .fixed-controls .fa:before{font-size:13px}#top-bar .fixed-controls{font-family:verdana,arial,helvetica,sans-serif!important;position:fixed;z-index:3;bottom:20px;right:5px;margin-top:-100px;width:50px;font-size:0;transition:right 1.5s}#top-bar .fixed-controls a:hover{animation:blink-2 0.8s ease-in-out infinite alternate}#top-bar .fxc-row{display:block;text-align:center;background:#fff;padding:20px 0;border-bottom:1px solid #ececec;color:#444;cursor:pointer}#top-bar .fixed-controls .fxc-row:after{content:"";position:absolute;left:0;top:0;width:100%;height:100%;background:#272828;margin:0;padding:0;border:none;-webkit-transform:scale(0.01);-moz-transform:scale(0.01);-ms-transform:scale(0.01);transform:scale(0.01)}#top-bar .fixed-controls .fxc-row > .fa{z-index:3;position:relative;font-weight:400}#top-bar .fixed-controls .fxc-row:hover > .fa{background-color:transparent;color:#fff}#top-bar .fixed-controls .fxc-row:after,.fixed-controls .fxc-row > .fa{-webkit-transition:.15s linear;-ms-transition:.15s linear;-moz-transition:.15s linear;-o-transition:.15s linear;transition:.15s linear}#top-bar .fixed-controls .fxc-row:hover:after{-webkit-transform:scale(1);-moz-transform:scale(1);-ms-transform:scale(1);transform:scale(1)}.fa{display:inline-block;font:normal normal normal 14px/1 FontAwesome;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.fa:hover,#top-bar .fixed-controls a{text-decoration:none}.fa-home:before{content:"\f015"}.fa-arrow-up:before{content:"\f062"}.fa-arrow-down:before{content:"\f063"}.fa-edit:before{content:"\f044"}.fa-file-code:before{content:"\f1c9"}.fa-history:before{content:"\f1da"}.fa-folder:before{content:"\f07b"}.fa-print:before{content:"\f02f"}#top-bar .fixed-controls .collapsible-block-folded a.collapsible-block-link:before{content:"\f204"}#top-bar .fixed-controls .collapsible-block-unfolded-link a.collapsible-block-link:before{content:"\f205"}.fa-file-alt:before{content:"\f15c"}#top-bar .fixed-controls a.collapsible-block-link:before{position:relative;top:calc(50% - 10px);font:normal normal normal 14px/1 FontAwesome;font-size:20px;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+
+/* the tips box */
+.fa:hover:after, .fxc-row:hover:before {position: absolute; right: 100%; display: inline-block; height: 16px!important; color: #b01!important; padding-top: 1.5px; font-size: 13px!important; font-weight: bold; text-align: center; text-shadow: #fff 0.5px 0.5px 0, #fff -0.5px -0.5px 0, #fff -0.5px 0.5px 0, #fff 0.5px -0.5px 0, #fff 0px 0.5px 0, #fff 0-0.5px 0, #fff -0.5px 0 0, #fff 0.5px 0 0; pointer-events: none;}
+.fxc-home:hover:before {content: "主页"; width: 45px; right: 120%; top: 45%;}
+.fa-edit:hover:after {content: "编辑"; width: 40px;}
+.fa-file-code:hover:after {content: "查看源代码"; width: 100px;}
+.fa-history:hover:after {content: "页面历史"; width: 55px; right: 105%;}
+.fa-folder:hover:after {content: "附件"; width: 40px;}
+.fxc-toc:hover:before {content: "Table of Contents"; width: 130px; right: 110%; top: 45%;}
+
+@keyframes blink-2 {
+0% {text-shadow: none}
+50%, 100% {text-shadow: -1px 0px 2px rgba(255, 255, 255, 0.83), 1px 0px 2px rgba(255, 255, 255, 0.83)}
+ }
+</style>
+<style>
+.content-panel .content-type-title > p {
+  margin: 0;
+}
+.content-panel .content-type-title {
+  font-size: 120%;
+  font-weight: bold;
+  padding: 5px 20px;
+  background-color: #666;
+  color: #fff;
+  border-radius: 8px 8px 0 0;
+  box-shadow: inset 0 1px 1px rgba(255,255,255,.8),
+    inset 0 15px 1px rgba(255,255,255,.2),
+    inset 0 15px 10px rgba(255,255,255,.2);
+}
+.content-panel .content-type-description {
+  padding: 0 20px;
+  text-align: justify;
+}
+.content-panel.content-row .content-type-description {
+  padding: 5px 20px;
+}
+
+.list-pages-box > table {
+    width: 100%;
+}
+.list-pages-box th {
+    padding: 0 2px;
+    background-color: #666;
+    color: #fff;
+    font-weight: bold;
+}
+.list-pages-box td {
+    vertical-align: top;
+}
+.list-pages-box th:not(:first-child),
+.list-pages-box td:not(:first-child) {
+    text-align: center;
+}
+.list-pages-box tr > td:first-child > div {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.list-pages-box tr > td:first-child > div > div:first-child {
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
+}
+.list-pages-box tr > td:first-child > div img.wanderers {
+    min-width: 16px;
+    width: 16px;
+    height: 11px;
+    box-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+.list-pages-box tr > td:first-child > div > div:not(.wanderers):not(.wanderers-adult) > img.wanderers {
+    display: none;
+}
+
+span.rating-tag {
+    display: inline-block;
+    padding: 0.125rem 0.625rem;
+    border-radius: 0.3125rem;
+    text-decoration: none;
+    background-color: #633;
+    color: #fff;
+    cursor: pointer;
+}
+span.rating-tag.ratinga {
+    background-color: #2c577f;
+}
+span.rating-tag.ratinga::before {
+    content: "多半好评";
+}
+span.rating-tag.rating {
+    background-color: #bca458;
+}
+span.rating-tag.rating::before {
+    content: "褒贬不一";
+}
+span.rating-tag.ratingb {
+    background-color: #c96b63;
+}
+span.rating-tag.ratingb::before {
+    content: "多半差评";
+}
+span.rating-tag.ratingl {
+    background-color: #a7a7a7;
+}
+span.rating-tag.ratingl::before {
+    content: "冷门作品";
+}
+span.rating-tag + div[id*="hovertip"] {
+    display: none;
+}
+</style>
+<link rel="alternate" type="application/rss+xml" title="Most Recently Created CN" href="http://momotokcepn.wikidot.com/feed/pages/pagename/component%3Astart/category/-fragment%2C-deleted/tags/%E7%BB%84%E4%BB%B6/order/created_at+desc/limit/30/t/Most+Recently+Created+CN"/><script type="text/javascript" src="http://d3g0gp89917ko0.cloudfront.net/v--291054f06006/common--modules/js/list/ListPagesModule.js"></script>
+</head>
+<body id="html-body">
+<div id="skrollr-body">
+<a name="page-top"></a>
+
+
+
+
+
+<div id="container-wrap-wrap">
+    <div id="container-wrap">
+        <div id="container">
+            <div id="header">
+              <h1><a href="/"><span>MomotokCepn-CN主站</span></a></h1>
+                
+                    <h2><span>平等      共享      进步</span></h2>
+                
+                
+                <!-- google_ad_section_start(weight=ignore) -->
+                
+                <div id="search-top-box" class="form-search">
+    <form id="search-top-box-form" action="dummy" class="input-append">
+        <input id="search-top-box-input" class="text empty search-query" type="text" size="15" name="query" value="搜索网站" onfocus="if(YAHOO.util.Dom.hasClass(this, 'empty')){YAHOO.util.Dom.removeClass(this,'empty'); this.value='';}"/><input class="button btn" type="submit" name="search" value="搜索"/>
+    </form>
+</div>
+                
+                
+                    <div id="top-bar">
+                        
+
+<div class="top-bar">
+<ul>
+<li>网站
+<ul>
+<li><a href="http://momotokcepn.wikidot.com/">主页</a></li>
+<li><a href="/system:join">加入网站</a></li>
+</ul>
+</li>
+<li>指导
+<ul>
+<li><a href="/help:first-time-user">新人指南</a></li>
+<li><a href="/legal:_home">网站站规</a></li>
+<li><a href="/help:write">写作指导</a></li>
+<li><a href="/help:deletearticles">删文指导</a></li>
+<li><a href="/help:ban">封禁指导</a></li>
+</ul>
+</li>
+<li>图书馆
+<ul>
+<li><a href="/most-recently-created-novel">小说</a></li>
+<li><a href="/most-recently-created-knowledge">知识</a></li>
+<li><a href="/most-recently-created-story">故事</a></li>
+<li><a href="/most-recently-created-other">其他</a></li>
+<li><a href="http://momotokcepn.wikidot.com/system:page-tags/tag/%E7%B2%BE%E9%80%89#pages">精选</a></li>
+<li><a href="/most-recently-created">最近新增的页面</a></li>
+</ul>
+</li>
+<li>社交
+<ul>
+<li><a href="/forum:start">讨论区</a></li>
+<li><a href="/writer">作者页</a></li>
+<li><a href="/chat">聊天室</a></li>
+</ul>
+</li>
+<li>关于写作
+<ul>
+<li><a href="/wiki-syntax">维基语法</a></li>
+<li><a href="/help:write">写作指导</a></li>
+<li><a href="/tagcloud">标签云</a></li>
+<li><a href="http://momotokcepn-sandbox.wikidot.com/">沙盒站</a></li>
+</ul>
+</li>
+<li><a href="http://newsoviet.wikidot.com/">兄弟网站</a></li>
+</ul>
+</div>
+<div class="mobile-top-bar">
+<div class="open-menu">
+<p><a href="#side-bar">★</a></p>
+</div>
+<ul>
+<li>指导
+<ul>
+<li><a href="/help:first-time-user">新人指南</a></li>
+<li><a href="/legal:_home">网站站规</a></li>
+<li><a href="/help:write">写作指导</a></li>
+<li><a href="/help:deletearticles">删文指导</a></li>
+<li><a href="/help:ban">封禁指导</a></li>
+</ul>
+</li>
+<li>图书馆及写作
+<ul>
+<li><a href="/most-recently-created-novel">小说</a></li>
+<li><a href="/most-recently-created-knowledge">知识</a></li>
+<li><a href="/most-recently-created-story">故事</a></li>
+<li><a href="/most-recently-created-other">其他</a></li>
+<li><a href="http://momotokcepn.wikidot.com/system:page-tags/tag/%E7%B2%BE%E9%80%89#pages">精选</a></li>
+<li><a href="/most-recently-created">最近新增的页面</a></li>
+<li>——</li>
+<li><a href="/wiki-syntax">维基语法</a></li>
+<li><a href="/help:write">写作指导</a></li>
+<li><a href="/tagcloud">标签云</a></li>
+<li><a href="http://momotokcepn-sandbox.wikidot.com/">沙盒站</a></li>
+</ul>
+</li>
+<li>社交
+<ul>
+<li><a href="/forum:start">讨论区</a></li>
+<li><a href="/writer">作者页</a></li>
+<li><a href="/chat">聊天室</a></li>
+</ul>
+</li>
+<li><a href="http://newsoviet.wikidot.com/">兄弟网站</a></li>
+</ul>
+</div>
+<div class="fixed-controls">
+<div class="collapsible-block">
+<div class="collapsible-block-folded"><a class="collapsible-block-link" href="javascript:;">+&nbsp;show&nbsp;block</a></div>
+<div class="collapsible-block-unfolded" style="display:none">
+<div class="collapsible-block-content">
+<p><a class="fxc-row" href="#header"><span class="fa fa-arrow-up"><span style="white-space: pre-wrap;">&nbsp;</span></span></a><br />
+<a class="fxc-row" href="#page-options-container"><span class="fa fa-arrow-down"><span style="white-space: pre-wrap;">&nbsp;</span></span></a><br />
+<span class="fxc-row"><br />
+<a class="fa fa-edit" href="javascript:;" onclick="WIKIDOT.page.listeners.editClick(event)">编辑</a><br /></span><br />
+<span class="fxc-row"><br />
+<a class="fa fa-file-code" href="javascript:;" onclick="WIKIDOT.page.listeners.viewSourceClick(event)">查看源代码</a><br /></span><br />
+<span class="fxc-row"><br />
+<a class="fa fa-history" href="javascript:;" onclick="WIKIDOT.page.listeners.historyClick(event)">历史</a><br /></span><br />
+<span class="fxc-row"><br />
+<a class="fa fa-folder" href="javascript:;" onclick="WIKIDOT.page.listeners.filesClick(event)">文件</a><br /></span></p>
+</div>
+<div class="collapsible-block-unfolded-link"><a class="collapsible-block-link" href="javascript:;">–&nbsp;hide&nbsp;block</a></div>
+</div>
+</div>
+</div>
+
+
+
+                    </div>
+                
+                <div id="login-status"><a href="javascript:;" onclick="WIKIDOT.page.listeners.createAccount(event)" class="login-status-create-account btn">建立帐号</a> <span>或</span> <a href="javascript:;" onclick="WIKIDOT.page.listeners.loginClick(event)" class="login-status-sign-in btn btn-primary">登入</a> </div>
+                <div id="header-extra-div-1"><span></span></div><div id="header-extra-div-2"><span></span></div><div id="header-extra-div-3"><span></span></div>
+            </div>
+            
+            <div id="content-wrap">
+                
+                    <div id="side-bar">
+                        
+
+
+                        
+
+<div class="side-block" style="background-color: #fff0f0;">
+
+<div class="heading">
+<p>用户选项</p>
+</div>
+<div class="menu-item"><img src="http://momotokcepn.wdfiles.com/local--files/nav%3Atop/hongsehuodong" height="13" width="13" alt="hongsehuodong" class="image" /><a href="https://www.wikidot.com/account/activity">活动(关闭)</a></div>
+<div class="menu-item"><img src="http://momotokcepn.wdfiles.com/local--files/nav%3Atop/hongsexinxi" height="13" width="13" alt="hongsexinxi" class="image" /><a href="https://www.wikidot.com/account/messages">消息</a></div>
+<div class="menu-item"><img src="http://momotokcepn.wdfiles.com/local--files/nav%3Atop/hongsewangzhan" height="13" width="13" alt="hongsewangzhan" class="image" /><a href="https://www.wikidot.com/account/sites">网站</a></div>
+<div class="menu-item"><img src="http://momotokcepn.wdfiles.com/local--files/nav%3Atop/hongseshezhi" height="13" width="13" alt="hongseshezhi" class="image" /><a href="https://www.wikidot.com/account/settings">设置</a></div>
+</div>
+<div class="side-block" style="background-color: #B2EEE3;">
+<div class="heading">
+<p>网站相关</p>
+</div>
+<div class="menu-item"><img src="http://momotokcepn.wdfiles.com/local--files/nav%3Atop/lianggeshenlvsewujiaoxin" height="13" width="13" alt="lianggeshenlvsewujiaoxin" class="image" /><a href="http://momotokcepn.wikidot.com/">主页</a></div>
+<div class="menu-item"><img src="http://momotokcepn.wdfiles.com/local--files/nav%3Atop/shenlvsewujiaoxin" height="13" width="13" alt="shenlvsewujiaoxin" class="image" /><a href="http://momotokcepn.wikidot.com/system:join">加入网站</a></div>
+</div>
+<div class="side-block" style="background-color: #f0fff6;">
+<div class="heading">
+<p>指导</p>
+</div>
+<div class="menu-item"><img src="http://momotokcepn.wdfiles.com/local--files/nav%3Atop/danlvsewenhao" height="13" width="13" alt="danlvsewenhao" class="image" /><a href="/help:first-time-user">新手指南</a></div>
+<div class="menu-item"><img src="http://momotokcepn.wdfiles.com/local--files/nav%3Atop/danlvsewenhao" height="13" width="13" alt="danlvsewenhao" class="image" /><a href="/legal:_home">网站站规</a></div>
+<div class="menu-item"><img src="http://momotokcepn.wdfiles.com/local--files/nav%3Atop/danlvsewenhao" height="13" width="13" alt="danlvsewenhao" class="image" /><a href="http://momotokcepn.wikidot.com/help:write">写作指导</a></div>
+<div class="menu-item"><img src="http://momotokcepn.wdfiles.com/local--files/nav%3Atop/danlvsewenhao" height="13" width="13" alt="danlvsewenhao" class="image" /><a href="http://momotokcepn.wikidot.com/help:deletearticles">删文指导</a></div>
+<div class="menu-item"><img src="http://momotokcepn.wdfiles.com/local--files/nav%3Atop/danlvsewenhao" height="13" width="13" alt="danlvsewenhao" class="image" /><a href="http://momotokcepn.wikidot.com/help:ban">封禁指导</a></div>
+</div>
+<div class="side-block">
+<div class="heading">
+<p>图书馆</p>
+</div>
+<div class="menu-item"><img src="http://momotokcepn.wdfiles.com/local--files/nav%3Aside/yemian" height="13" width="13" alt="yemian" class="image" /><a href="http://momotokcepn.wikidot.com/most-recently-created-novel">小说</a></div>
+<div class="menu-item"><img src="http://momotokcepn.wdfiles.com/local--files/nav%3Aside/yemian" height="13" width="13" alt="yemian" class="image" /><a href="http://momotokcepn.wikidot.com/most-recently-created-knowledge">知识</a></div>
+<div class="menu-item"><img src="http://momotokcepn.wdfiles.com/local--files/nav%3Aside/yemian" height="13" width="13" alt="yemian" class="image" /><a href="http://momotokcepn.wikidot.com/most-recently-created-story">故事</a></div>
+<div class="menu-item"><img src="http://momotokcepn.wdfiles.com/local--files/nav%3Aside/yemian" height="13" width="13" alt="yemian" class="image" /><a href="http://momotokcepn.wikidot.com/most-recently-created-other">其他</a></div>
+<div class="menu-item"><img src="http://momotokcepn.wdfiles.com/local--files/nav%3Aside/yemian" height="13" width="13" alt="yemian" class="image" /><a href="http://momotokcepn.wikidot.com/system:page-tags/tag/%E7%B2%BE%E9%80%89#pages">精选</a></div>
+<div class="menu-item"><img src="http://momotokcepn.wdfiles.com/local--files/nav%3Aside/yemian" height="13" width="13" alt="yemian" class="image" /><a href="http://momotokcepn.wikidot.com/most-recently-created">最近新增的页面</a></div>
+</div>
+<div class="side-block">
+<div class="heading">
+<p>社交</p>
+</div>
+<div class="menu-item"><img src="http://momotokcepn.wdfiles.com/local--files/nav%3Aside/liaotian" height="13" width="13" alt="liaotian" class="image" /><a href="http://momotokcepn.wikidot.com/forum:start">讨论区</a></div>
+<div class="menu-item"><img src="http://momotokcepn.wdfiles.com/local--files/nav%3Aside/ren" height="13" width="13" alt="ren" class="image" /><a href="http://momotokcepn.wikidot.com/writer">作者页</a></div>
+<div class="collapsible-block">
+<div class="collapsible-block-folded"><a class="collapsible-block-link" href="javascript:;">聊天室</a></div>
+<div class="collapsible-block-unfolded" style="display:none">
+<div class="collapsible-block-unfolded-link"><a class="collapsible-block-link" href="javascript:;">收起</a></div>
+<div class="collapsible-block-content">
+<div style="text-align: center;">
+<p><iframe src="https://my.cbox.ws/MomotokCepnchat" align="" frameborder="" height="400px" scrolling="" width="120%" class="" style=""></iframe></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="side-block">
+<div class="heading">
+<p>关于写作</p>
+</div>
+<div class="menu-item"><img src="http://momotokcepn.wdfiles.com/local--files/nav%3Aside/yufa" height="13" width="13" alt="yufa" class="image" /><a href="http://momotokcepn.wikidot.com/wiki-syntax">维基语法</a></div>
+<div class="menu-item"><img src="http://momotokcepn.wdfiles.com/local--files/nav%3Aside/wenhao" height="13" width="13" alt="wenhao" class="image" /><a href="http://momotokcepn.wikidot.com/help:write">写作指导</a></div>
+<div class="menu-item"><img src="http://momotokcepn.wikidot.com/local--files/nav:side/biaoqian" height="13" width="13" alt="biaoqian" class="image" /><a href="http://momotokcepn.wikidot.com/tagcloud">标签云</a></div>
+<div class="menu-item"><img src="http://momotokcepn.wdfiles.com/local--files/nav%3Aside/yemian" height="13" width="13" alt="yemian" class="image" /><a href="http://momotokcepn.wikidot.com/component:start">组件</a></div>
+<div class="menu-item"><img src="http://momotokcepn.wdfiles.com/local--files/nav%3Aside/lianjie" height="13" width="13" alt="lianjie" class="image" /><a href="http://momotokcepn-sandbox.wikidot.com/">沙盒站</a></div>
+</div>
+<div class="side-block">
+<div class="heading">
+<p>小工具</p>
+</div>
+<div class="menu-item"><img src="http://momotokcepn.wdfiles.com/local--files/nav%3Aside/css" height="13" width="13" alt="css" class="image" /><a href="http://scp-wiki-cn.wikidot.com/css-theme-preparation-tool">css制作器</a></div>
+<div class="menu-item"><img src="http://momotokcepn.wdfiles.com/local--files/nav%3Aside/vanyousee" height="13" width="13" alt="vanyousee" class="image" /><a href="http://momotokcepn.wikidot.com/component:games">wikidot小游戏</a></div>
+<div class="menu-item"><img src="http://momotokcepn.wdfiles.com/local--files/nav%3Aside/lianjie" height="13" width="13" alt="lianjie" class="image" /><a href="http://momotokcepn.wikidot.com/component:inquire">编辑与发帖总数查询器</a></div>
+<div class="menu-item"><img src="http://momotokcepn.wdfiles.com/local--files/nav%3Aside/jishiqi" height="13" width="13" alt="jishiqi" class="image" /><a href="http://momotokcepn.wikidot.com/component:calculator">计时器</a></div>
+<div class="menu-item"><img src="http://momotokcepn.wdfiles.com/local--files/nav%3Aside/lianjie" height="13" width="13" alt="lianjie" class="image" /><a href="https://scp-wiki-cn.wikidot.com/asriel-s-tools">工具合集</a></div>
+</div>
+<div class="side-block" style="background-color: #e7e5e8;">
+<div class="heading">
+<p>相关链接</p>
+</div>
+<div class="menu-item"><img src="http://momotokcepn.wdfiles.com/local--files/nav%3Atop/huiseyinbi" height="13" width="13" alt="huiseyinbi" class="image" /><a href="http://momotokcepn.wikidot.com/contribute">贡献榜单</a></div>
+<div class="menu-item"><img src="http://momotokcepn.wdfiles.com/local--files/nav%3Atop/huiselianjie" height="13" width="13" alt="huiselianjie" class="image" /><a href="http://momotokcepn.wikidot.com/web-about">相关网站</a></div>
+</div>
+<div class="side-block" style="background-color: #fff0f0;">
+<div class="collapsible-block">
+<div class="collapsible-block-folded"><a class="collapsible-block-link" href="javascript:;">管理专用</a></div>
+<div class="collapsible-block-unfolded" style="display:none">
+<div class="collapsible-block-unfolded-link"><a class="collapsible-block-link" href="javascript:;">管理专用</a></div>
+<div class="collapsible-block-content">
+<div class="menu-item"><img src="http://momotokcepn.wdfiles.com/local--files/nav%3Atop/hongsedian" height="13" width="13" alt="hongsedian" class="image" /><a href="http://momotokcepn.wikidot.com/nav:side">侧栏</a>|<a href="http://momotokcepn.wikidot.com/nav:top">顶栏</a>|<a href="http://momotokcepn.wikidot.com/theme:start">版式</a></div>
+<div class="menu-item"><img src="http://momotokcepn.wdfiles.com/local--files/nav%3Atop/hongselianjie" height="13" width="13" alt="hongselianjie" class="image" /><a href="http://momotokcepn-admin.wikidot.com/">职员站</a>|<a href="http://momotokcepn.wikidot.com/_admin">管理面板</a></div>
+<div class="menu-item"><img src="http://momotokcepn.wdfiles.com/local--files/nav%3Atop/hongsedian" height="13" width="13" alt="hongsedian" class="image" /><a href="/system:members">会员一览</a></div>
+<div class="menu-item"><img src="http://momotokcepn.wdfiles.com/local--files/nav%3Atop/hongsedian" height="13" width="13" alt="hongsedian" class="image" /><a href="http://momotokcepn.wikidot.com/system:recent-changes">最近的变更</a></div>
+<div class="menu-item"><img src="http://momotokcepn.wdfiles.com/local--files/nav%3Atop/hongsedian" height="13" width="13" alt="hongsedian" class="image" /><a href="http://momotokcepn.wikidot.com/system:list-all-categories">所有页面</a>|<a href="http://momotokcepn.wikidot.com/delete">被删除的页面</a></div>
+<div class="menu-item"><img src="http://momotokcepn.wdfiles.com/local--files/nav%3Atop/hongsedian" height="13" width="13" alt="hongsedian" class="image" /><a href="http://momotokcepn.wikidot.com/template">模板页面</a></div>
+<div class="menu-item"><img src="http://momotokcepn.wdfiles.com/local--files/nav%3Atop/hongsedian" height="13" width="13" alt="hongsedian" class="image" /><a href="http://momotokcepn.wikidot.com/sitemap.xml">网站地图</a></div>
+</div>
+</div>
+</div>
+</div>
+<div class="side-block media" style="background-color: #e5e5ff;">
+<div class="heading">
+<p>相关媒体</p>
+</div>
+<div class="menu-item">
+<div style="text-align: center;"><a href="https://discord.gg/TY5nwUtesh" target="_blank"><img src="http://momotokcepn.wdfiles.com/local--files/nav:side/Discord.png" style="width:30px; height:30px;" alt="Discord.png" class="image" /></a><a href="https://github.com/MomotokCepn" target="_blank"><img src="http://momotokcepn.wdfiles.com/local--resized-images/nav:side/GitHub/medium.jpg" style="width:30px; height:30px;" alt="GitHub" class="image" /></a></div>
+</div>
+</div>
+<div class="side-block" style="background-color: #f0f0f0;">
+<div style="text-align: center;"><a href="https://creativecommons.org/licenses/by-sa/3.0/deed.zh" target="_blank"><img src="https://sigma9.zokhoi.com/cn/img/cc-by-sa.svg" style="margin-bottom: 10px;" alt="cc-by-sa.svg" class="image" /></a><br />
+<span style="font-size:80%;">© MomotokCepn<br /></span></div>
+</div>
+<div style="clear:both; height: 0px; font-size: 1px"></div>
+<a class="close-menu" href="###"><br />
+<img src="https://sigma9.zokhoi.com/cn/img/black.png" style="z-index=-1; opacity: 0.3;" alt="black.png" class="image" /><br /></a>
+                        
+
+
+                    </div>
+                
+                
+                <!-- google_ad_section_end -->
+                
+                <div id="main-content">
+                    <div id="action-area-top"></div>
+                    
+                    
+                        <div id="page-title">
+                            组件中心页
+                        </div>
+                    
+
+                    
+
+                    
+
+
+
+                    <div id="page-content">
+                        
+
+<div style="background-color: #600; border: solid 1px #600; border-radius: 20px; color: #fff; width: 450px; margin: 0 auto; font-size: 150%; text-align: center; box-shadow: 0 2px 6px rgba(0,0,0,.5), inset 0 1px rgba(255,255,255,.5), inset 0 10px rgba(255,204,204,.5), inset 0 10px 20px rgba(255,204,204,.3), inset 0 -15px 30px rgba(48,0,0,.5); line-height: 100%; padding: 0 10px;">
+<h1 id="toc0"><span>注意</span></h1>
+<p>此页为于MomotokCepn内部使用的“组件”页。用于在其他页面中引用。<br />
+未经组件作者或工作人员允许，请勿修改此页的内容</p>
+</div>
+
+
+
+<div class="content-panel standalone content-row">
+<div class="content-type-title">
+<p>最近新增的原创作品</p>
+</div>
+<div class="content-type-description"><div class="list-pages-box">    
+
+<table>
+<tr>
+<th style="width: 50%;">页面</th>
+<th style="width: 25%;">发布日期</th>
+<th>评价</th>
+</tr>
+<tr>
+<td>
+<div>
+<div><a href="/component:image-block">插图方块</a></div>
+<div class="component"><img src="https://scp-wiki-cn.wdfiles.com/local--files/main/SerpHand.png" class="wanderers" alt="Wanderers" /></div>
+</div>
+</td>
+<td><span class="odate time_1662139870 format_%25Y-%25m-%25d%20%25R%7Cagohover">02 Sep 2022 17:31</span></td>
+<td><span id="u-info-component-image-block" class="rating-tag ratingl"></span>
+<div id="u-info-component-image-block-hovertip">
+<p><strong>发布者：</strong><span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/gtryobe" onclick="WIKIDOT.page.listeners.userInfo(6682340); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=6682340&amp;amp;size=small&amp;amp;timestamp=1673071608" alt="GTryobe" style="background-image:url(http://www.wikidot.com/userkarma.php?u=6682340)" /></a><a href="http://www.wikidot.com/user:info/gtryobe" onclick="WIKIDOT.page.listeners.userInfo(6682340); return false;">GTryobe</a></span></p>
+<p><strong>评分：</strong>0</p>
+<p><strong>评论数：</strong>0</p>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div>
+<div><a href="/component:calculator">计时器</a></div>
+<div class="component"><img src="https://scp-wiki-cn.wdfiles.com/local--files/main/SerpHand.png" class="wanderers" alt="Wanderers" /></div>
+</div>
+</td>
+<td><span class="odate time_1660731609 format_%25Y-%25m-%25d%20%25R%7Cagohover">17 Aug 2022 10:20</span></td>
+<td><span id="u-info-component-calculator" class="rating-tag ratingl"></span>
+<div id="u-info-component-calculator-hovertip">
+<p><strong>发布者：</strong><span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/gtryobe" onclick="WIKIDOT.page.listeners.userInfo(6682340); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=6682340&amp;amp;size=small&amp;amp;timestamp=1673071608" alt="GTryobe" style="background-image:url(http://www.wikidot.com/userkarma.php?u=6682340)" /></a><a href="http://www.wikidot.com/user:info/gtryobe" onclick="WIKIDOT.page.listeners.userInfo(6682340); return false;">GTryobe</a></span></p>
+<p><strong>评分：</strong>0</p>
+<p><strong>评论数：</strong>1</p>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div>
+<div><a href="/component:inquire">新编辑与发帖总数查询器</a></div>
+<div class="component"><img src="https://scp-wiki-cn.wdfiles.com/local--files/main/SerpHand.png" class="wanderers" alt="Wanderers" /></div>
+</div>
+</td>
+<td><span class="odate time_1658639038 format_%25Y-%25m-%25d%20%25R%7Cagohover">24 Jul 2022 05:03</span></td>
+<td><span id="u-info-component-inquire" class="rating-tag ratingl"></span>
+<div id="u-info-component-inquire-hovertip">
+<p><strong>发布者：</strong><span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/advancer" onclick="WIKIDOT.page.listeners.userInfo(8032486); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=8032486&amp;amp;size=small&amp;amp;timestamp=1673071608" alt="Advancer" style="background-image:url(http://www.wikidot.com/userkarma.php?u=8032486)" /></a><a href="http://www.wikidot.com/user:info/advancer" onclick="WIKIDOT.page.listeners.userInfo(8032486); return false;">Advancer</a></span></p>
+<p><strong>评分：</strong>1</p>
+<p><strong>评论数：</strong>6</p>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div>
+<div><a href="/component:games">来玩一个小游戏</a></div>
+<div class="component"><img src="https://scp-wiki-cn.wdfiles.com/local--files/main/SerpHand.png" class="wanderers" alt="Wanderers" /></div>
+</div>
+</td>
+<td><span class="odate time_1658068128 format_%25Y-%25m-%25d%20%25R%7Cagohover">17 Jul 2022 14:28</span></td>
+<td><span id="u-info-component-games" class="rating-tag ratingl"></span>
+<div id="u-info-component-games-hovertip">
+<p><strong>发布者：</strong><span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/gtryobe" onclick="WIKIDOT.page.listeners.userInfo(6682340); return false;"><img class="small" src="http://www.wikidot.com/avatar.php?userid=6682340&amp;amp;size=small&amp;amp;timestamp=1673071608" alt="GTryobe" style="background-image:url(http://www.wikidot.com/userkarma.php?u=6682340)" /></a><a href="http://www.wikidot.com/user:info/gtryobe" onclick="WIKIDOT.page.listeners.userInfo(6682340); return false;">GTryobe</a></span></p>
+<p><strong>评分：</strong>1</p>
+<p><strong>评论数：</strong>0</p>
+</div>
+</td>
+</tr>
+</table>
+
+    
+    
+    
+            <div class="feedinfo">
+            <span class="rss-icon"><img src="/common--theme/base/images/feed/feed-icon-14x14.png" alt="rss icon"/></span>
+            <a href="http://momotokcepn.wikidot.com/feed/pages/pagename/component%3Astart/category/-fragment%2C-deleted/tags/%E7%BB%84%E4%BB%B6/order/created_at+desc/limit/30/t/Most+Recently+Created+CN">RSS 消息来源</a>
+        </div>
+    </div></div>
+</div>
+    
+
+
+    
+    
+    
+    
+                    </div>
+
+                    
+
+
+                    
+
+
+
+                    
+                        <div class="page-tags">
+                            <span>
+                                <a href="/system:page-tags/tag/%E4%B8%AD%E5%BF%83%E9%A1%B5#pages">中心页</a>
+                            </span>
+                        </div>
+                    
+
+                    <div id="page-info-break"></div>
+                    
+                        <div id="page-options-container">
+                            <div id="page-info">页面版本: 3, 最后编辑于: <span class="odate time_1662562253 format_%25e%20%25b%20%25Y%2C%20%25H%3A%25M%20%28%25O%20%E5%89%8D%29">07 Sep 2022 14:50</span></div>
+            <div id="page-options-bottom"  class="page-options-bottom">
+            <a href="javascript:;" class="btn btn-default" id="edit-button">编辑</a>
+<a href="javascript:;" class="btn btn-default" id="pagerate-button">评分 (<span id="prw54355">0</span>)</a>
+<a href="javascript:;" class="btn btn-default" id="tags-button">标签</a>
+<a href="javascript:;" class="btn btn-default" id="discuss-button" onclick="WIKIDOT.page.listeners.createPageDiscussion(event)">讨论</a> 
+<a href="javascript:;" class="btn btn-default" id="history-button">历史记录</a>
+<a href="javascript:;" class="btn btn-default" id="files-button">附件</a>
+<a href="javascript:;" class="btn btn-default" id="print-button">打印</a>
+<a href="javascript:;" class="btn btn-default" id="site-tools-button">网站工具</a>
+<a href="javascript:;" class="btn btn-default" id="more-options-button">+&nbsp;选项</a> 
+</div>
+<div id="page-options-bottom-2" class="page-options-bottom form-actions" style="display:none">
+    <a href="javascript:;" class="btn btn-default" id="edit-sections-button">编辑段落</a>
+    <a href="javascript:;" class="btn btn-default" id="edit-append-button">附加</a>
+    <a href="javascript:;" class="btn btn-default" id="edit-meta-button">编辑元信息</a>
+    <a href="javascript:;" class="btn btn-default" id="watchers-button">关注者</a> 
+    <a href="javascript:;" class="btn btn-default" id="backlinks-button">反向链接</a> 
+    <a href="javascript:;" class="btn btn-default" id="view-source-button">页面源代码</a> 
+    <a href="javascript:;" class="btn btn-default" id="parent-page-button">父页面</a> 
+    <a href="javascript:;" class="btn btn-default" id="page-block-button">锁定页面</a>    
+    <a href="javascript:;" class="btn btn-default" id="rename-move-button">重新命名</a> 
+    <a href="javascript:;" class="btn btn-default" id="delete-button">删除</a> 
+</div>
+<div id="page-options-area-bottom">
+</div>
+
+                        </div>
+                    
+                    <div id="action-area" style="display: none;"></div>
+                </div>
+            </div>
+            
+            
+            
+            <div id="footer" style="display: block; visibility: visible;">
+                <div class="options" style="display: block; visibility: visible;">
+    <a href="http://www.wikidot.com/doc" id="wikidot-help-button">说明</a>
+    &nbsp;|
+    <a href="http://www.wikidot.com/legal:terms-of-service" id="wikidot-tos-button">服务条款</a>
+    &nbsp;|
+    <a href="http://www.wikidot.com/legal:privacy-policy" id="wikidot-privacy-button">隐私</a>
+    &nbsp;|
+    <a href="javascript:;" id="bug-report-button" onclick="WIKIDOT.page.listeners.pageBugReport(event)">报告错误</a>
+    &nbsp;|
+    <a href="javascript:;" id="abuse-report-button" onclick="WIKIDOT.page.listeners.flagPageObjectionable(event)">标记为令人反感的</a>
+</div>
+基于 <a href="http://www.wikidot.com">Wikidot.com</a> 
+            </div>
+            
+                <div id="license-area" class="license-area">
+                    <img border="0" src="http://momotokcepn.wdfiles.com/local--files/home/moe" width="20" height="20">
+<a href="https://icp.gov.moe/?keyword=20220454" target="_blank">萌ICP备20220454号</a>
+<br>
+除非特别注明，本页内容采用以下授权方式<a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank">CC-BY-SA-3.0</a>
+                </div>
+            
+            
+            
+
+
+
+            <div id="extrac-div-1"><span></span></div><div id="extrac-div-2"><span></span></div><div id="extrac-div-3"><span></span></div>
+            
+            
+            
+            
+                
+            
+        </div>
+        
+    </div>
+<!-- These extra divs/spans may be used as catch-alls to add extra imagery. -->
+<div id="extra-div-1"><span></span></div><div id="extra-div-2"><span></span></div><div id="extra-div-3"><span></span></div>
+<div id="extra-div-4"><span></span></div><div id="extra-div-5"><span></span></div><div id="extra-div-6"><span></span></div>
+</div>
+
+
+
+
+</div>
+<div id="dummy-ondomready-block" style="display: none;" ></div>
+    <!-- Google Analytics load -->
+    <script type="text/javascript">
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
+    <!-- Quantcast -->
+    <script type="text/javascript">
+    _qoptions={
+        qacct:"p-edL3gsnUjJzw-"
+    };
+    (function() {
+        var qc = document.createElement('script'); qc.type = 'text/javascript'; qc.async = true;
+        qc.src = ('https:' == document.location.protocol ? 'https://secure' : 'http://edge') + '.quantserve.com/quant.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(qc, s);
+    })();
+    </script>
+    <noscript>
+        <img src="http://pixel.quantserve.com/pixel/p-edL3gsnUjJzw-.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/>
+    </noscript>
+
+
+
+
+<div id="page-options-bottom-tips" style="display: none;">
+    <div id="edit-button-hovertip">
+        请点此编辑本页内容。    </div>
+</div>
+<div id="page-options-bottom-2-tips"  style="display: none;">
+    <div id="edit-sections-button-hovertip">
+        单击此处切换页面各部分的编辑按钮（如果可能）。 在标题边会显示“编辑”链接。    </div>
+    <div id="edit-append-button-hovertip">
+        在不编辑整个页面源代码的情况下添加内容。    </div>
+    <div id="history-button-hovertip">
+        看看本页过去是如何沿革的。    </div>
+    <div id="discuss-button-hovertip">
+        若您想要讨论本页内容 - 这是最简单的方法。    </div>
+    <div id="files-button-hovertip">
+        检视并管理本页附件。    </div>
+    <div id="site-tools-button-hovertip">
+        管理网站的实用工具。    </div>
+    <div id="backlinks-button-hovertip">
+        检视链接至本页或引用本页的页面。    </div>
+    <div id="rename-move-button-hovertip">
+        变更页面名称（及 URL 地址，或许会影响分类）。    </div>
+    <div id="view-source-button-hovertip">
+        在不编辑的情形下检视维基源代码。    </div>
+    <div id="parent-page-button-hovertip">  
+        检视/ 设定父页面（用以建立浏览足迹与结构化​​配置）。    </div>
+            <div id="abuse-report-button-hovertip">
+            向管理员举报本页有令人反感的内容。        </div>
+        <div id="bug-report-button-hovertip">
+            事情不如预期？看看您可以做些什么。        </div>
+        <div id="wikidot-help-button-hovertip">
+            一般的 Wikidot.com 文件与说明。        </div>
+        <div id="wikidot-tos-button-hovertip">
+            Wikidot.com 服务条款 - 您可以做的事，您不该做的事之类的。        </div>
+        <div id="wikidot-privacy-button-hovertip">
+            Wikidot.com 隐私政策。          
+        </div>
+    </div>
+</body>
+</html>
